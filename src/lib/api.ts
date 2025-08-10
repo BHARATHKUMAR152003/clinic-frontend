@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:3000', // Your backend URL
+  baseURL: 'https://clinic-backend-06kv.onrender.com', // Your backend URL
 });
 
 // This "interceptor" runs before any request is sent
